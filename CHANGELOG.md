@@ -1,7 +1,7 @@
 # Changelog
 
-All notable changes to `SDK` will be documented in this file
+All notable changes to `Blockade Labs SDK` will be documented in this file
 
-## 1.0.0 - 201X-XX-XX
+## 1.0.0 - April 06, 2023.
 
-- initial release
+- Initial release
