@@ -7,6 +7,13 @@
         "laravel"
     ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Blockade Labs",
+            "email": "services@blockadelabs.com",
+            "homepage": "https://www.blockadelabs.com/"
+        }
+    ],
     "homepage": "https://github.com/Blockade-Games/BlockadeLabs-SDK-Laravel",
     "type": "library",
     "require": {
