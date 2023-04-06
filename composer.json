@@ -7,11 +7,11 @@
         "laravel"
     ],
     "license": "MIT",
-    "homepage": "https://github.com/blockade/sdk",
+    "homepage": "https://github.com/Blockade-Games/BlockadeLabs-SDK-Laravel",
     "type": "library",
     "require": {
         "php": "^7.25|^8.0",
-        "illuminate/support": "^7.0|^8.0",
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0",
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1"
     },
     "autoload": {
@@ -22,10 +22,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BlockadeLabs\\SDK\\SDKServiceProvider"
+                "BlockadeLabs\\SDK\\Providers\\SDKServiceProvider"
             ],
             "aliases": {
-                "SDK": "BlockadeLabs\\SDK\\SDKFacade"
+                "BlockadeLabsClient": "BlockadeLabs\\SDK\\Facades\\BlockadeLabsClient"
             }
         }
     }
