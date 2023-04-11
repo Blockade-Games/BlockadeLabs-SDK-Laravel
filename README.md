@@ -44,7 +44,7 @@ $skyboxStyles = BlockadeLabsClient::getSkyboxStyles();
 $skybox = BlockadeLabsClient::generateSkybox([
    'prompt' => 'PROMPT_GOES_HERE', // Required
    'skybox_style_id' => '2', // Required,
-   'remix_imagine_id': 1, // OR remix_obfuscated_id / Optional
+   'remix_imagine_id' => 1, // OR remix_obfuscated_id / Optional
    'webhook_url' => 'YOUR_WEBHOOK_URL', // Optional
 ]);
 ```
